@@ -8,8 +8,8 @@ import (
 
 func SayHi() string {
 	p := dep.Person{
-		Name:    "John",
+		Name:    "Jonny",
 		Surname: "Doe",
 	}
-	return fmt.Sprintf("I'm %v from 2", p.Name)
+	return fmt.Sprintf("I'm %v from v2", p.Name)
 }
