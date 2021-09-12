@@ -11,5 +11,5 @@ func SayHi() string {
 		Name:    "John",
 		Surname: "Doe",
 	}
-	return fmt.Sprintf("I'm %v from V0", p.Name)
+	return fmt.Sprintf("I'm %v from 2", p.Name)
 }
